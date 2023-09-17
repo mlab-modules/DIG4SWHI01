@@ -1,0 +1,9 @@
+bom: hw/sch_pcb/DIG4SWHI01.kicad_pcb
+color: white
+eda:
+  pcb: hw/sch_pcb/DIG4SWHI01.kicad_pcb
+  type: kicad
+gerbers: hw/cam_profi/
+site: https://github.com/mlab-modules/DIG4SWHI01
+summary: Switch for voltage from 4 V to 28 V. Resistance in spliced state 50 mOhm.
+  Integrated circuit VNQ7050AJ.
