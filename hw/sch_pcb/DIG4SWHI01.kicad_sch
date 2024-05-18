@@ -5,12 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "NAME")
+    (title "DIG4SWHI01")
     (date "%F")
-    (rev "REV")
+    (rev "A")
     (company "Mlab www.mlab.cz")
     (comment 1 "VERSION")
-    (comment 2 "Short description \\nTwo lines are maximum")
+    (comment 2 "Quad channel current sensing high-side switch")
     (comment 3 "nickname <email@example.com>")
     (comment 4 "BSD")
   )
@@ -983,55 +983,55 @@
     (uuid e14ce289-5ee9-470f-9672-823203114927)
   )
 
-  (label "IN3" (at 81.28 83.82 0)
+  (label "IN3" (at 81.28 83.82 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 0009151d-0590-450e-901e-4e108fa605e0)
   )
-  (label "SEn" (at 81.28 101.6 0)
+  (label "SEn" (at 81.28 101.6 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 07945053-0719-459b-bcf3-0dd0e6779bb9)
   )
-  (label "IN0" (at 81.28 68.58 0)
+  (label "IN0" (at 81.28 68.58 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 08f9a98a-f1c6-4ae1-bbfb-98042a3da268)
   )
-  (label "SEL1" (at 81.28 96.52 0)
+  (label "SEL1" (at 81.28 96.52 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 09ad181e-059d-4fb0-a0eb-4e82e200bd71)
   )
-  (label "OUT2" (at 125.73 76.2 0)
+  (label "OUT2" (at 125.73 76.2 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 3eae8e6c-3f1b-4b99-9f55-0980c862b21d)
   )
-  (label "IN1" (at 81.28 73.66 0)
+  (label "IN1" (at 81.28 73.66 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 4984f828-1937-48df-aafa-e181302aec74)
   )
-  (label "OUT0" (at 125.73 68.58 0)
+  (label "OUT0" (at 125.73 68.58 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 63dd9ce9-de9c-45e9-8b47-dd6435304885)
   )
-  (label "#FRST" (at 81.28 106.68 0)
+  (label "#FRST" (at 81.28 106.68 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 6804cbef-2abc-4154-a37f-7dd5c84a1f68)
   )
-  (label "OUT1" (at 125.73 72.39 0)
+  (label "OUT1" (at 125.73 72.39 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 8943a92a-9d03-4f7a-9e0c-614148843c0c)
   )
-  (label "CS" (at 73.66 111.76 0)
+  (label "CS" (at 73.66 111.76 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 99fe755e-cc61-4516-8edb-99373c125511)
   )
-  (label "IN2" (at 81.28 78.74 0)
+  (label "IN2" (at 81.28 78.74 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 9cf4ba9e-cc7f-468e-91c3-7e460227e7af)
   )
-  (label "OUT3" (at 125.73 80.01 0)
+  (label "OUT3" (at 125.73 80.01 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid c466a9b5-78b0-45a6-9861-f8f31614cbeb)
   )
-  (label "SEL0" (at 81.28 91.44 0)
+  (label "SEL0" (at 81.28 91.44 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid c48f5347-9cd5-4c6f-8bcb-661aaff90e51)
   )
@@ -1053,7 +1053,7 @@
     )
     (pin "1" (uuid f5bd6a83-4702-4fc0-8ccf-7e4c137ee0a6))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "M1") (unit 1)
         )
@@ -1078,7 +1078,7 @@
     )
     (pin "1" (uuid 73f8b5fa-53f9-44dc-9880-df3fd9247a1a))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "M2") (unit 1)
         )
@@ -1103,7 +1103,7 @@
     )
     (pin "1" (uuid 4724a0eb-de53-4435-ba93-2b0024345db1))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "M3") (unit 1)
         )
@@ -1128,7 +1128,7 @@
     )
     (pin "1" (uuid b616a582-4848-4f4b-9f62-3e07430d2738))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "M4") (unit 1)
         )
@@ -1153,7 +1153,7 @@
     )
     (pin "1" (uuid 41e75211-d542-405e-a025-9f0c20d3d601))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR01") (unit 1)
         )
@@ -1179,7 +1179,7 @@
     (pin "1" (uuid 2e63027c-135e-4624-acf3-5e0d2457e3a6))
     (pin "2" (uuid 7859f9eb-cfd8-4b2b-9cfa-9299977d121d))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "D1") (unit 1)
         )
@@ -1204,7 +1204,7 @@
     )
     (pin "1" (uuid 57fc1545-5637-458c-8ad1-8fc41f024d08))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR02") (unit 1)
         )
@@ -1229,7 +1229,7 @@
     )
     (pin "1" (uuid 2710d4ca-6a37-443a-84f1-7d2a60ab05b4))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR03") (unit 1)
         )
@@ -1254,7 +1254,7 @@
     )
     (pin "1" (uuid 42649feb-6219-47a5-bd99-12cf96571c5e))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J1") (unit 1)
         )
@@ -1279,7 +1279,7 @@
     )
     (pin "1" (uuid 3ca80a1c-4d1e-4a53-acd6-d4466a0a16b7))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J2") (unit 1)
         )
@@ -1304,7 +1304,7 @@
     )
     (pin "1" (uuid ca71309c-029c-472a-bef7-89cfeebf8106))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR04") (unit 1)
         )
@@ -1329,7 +1329,7 @@
     )
     (pin "1" (uuid 39c7a3fa-76c4-4093-9502-11d45291d00c))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR05") (unit 1)
         )
@@ -1354,7 +1354,7 @@
     )
     (pin "1" (uuid 94b7a178-b48a-41ea-afc1-fe580218cbef))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR06") (unit 1)
         )
@@ -1380,7 +1380,7 @@
     (pin "1" (uuid da94913a-7848-423a-b78c-8693da68ecb1))
     (pin "2" (uuid 8d19edba-fc85-4020-9dca-ce95acc2fb96))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C1") (unit 1)
         )
@@ -1405,7 +1405,7 @@
     )
     (pin "1" (uuid 737cf86a-8be9-43b2-b6de-08a593feb0ca))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR07") (unit 1)
         )
@@ -1430,7 +1430,7 @@
     )
     (pin "1" (uuid 214a33c6-17e4-4c5c-850c-0868a66e3568))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR08") (unit 1)
         )
@@ -1456,7 +1456,7 @@
     (pin "1" (uuid b512641b-999c-4cfd-863b-22f4848d3859))
     (pin "2" (uuid 5f6090d3-d81c-44ff-ba03-9f76b415388e))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R3") (unit 1)
         )
@@ -1482,7 +1482,7 @@
     (pin "1" (uuid 39f803ab-754b-40ac-97f9-04934febcbc5))
     (pin "2" (uuid 2c084d87-8896-4889-bf34-c60b433f0bda))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R4") (unit 1)
         )
@@ -1508,7 +1508,7 @@
     (pin "1" (uuid 856ae16c-4064-4a0e-82e5-64cfeaed7a7d))
     (pin "2" (uuid 7493e7e3-a820-4db5-9173-2e4f0eccd6c8))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R5") (unit 1)
         )
@@ -1534,7 +1534,7 @@
     (pin "1" (uuid 38a33f33-8caa-4126-8e5d-a51b45dbd403))
     (pin "2" (uuid 60bd5e89-ba2c-4f04-9459-7a18d5b592d3))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R6") (unit 1)
         )
@@ -1560,7 +1560,7 @@
     (pin "1" (uuid 9e1a432b-b69d-4c35-aacd-0b6e94a143de))
     (pin "2" (uuid 10911c96-215e-483e-8080-76bdcdfebddc))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R9") (unit 1)
         )
@@ -1586,7 +1586,7 @@
     (pin "1" (uuid 4d7d216a-17a5-4572-8f2c-32abe73becbe))
     (pin "2" (uuid 91788795-5ef8-4d19-900c-24487129e564))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R10") (unit 1)
         )
@@ -1612,7 +1612,7 @@
     (pin "1" (uuid d8228a80-1f24-486d-8a27-b4cbd28e57f3))
     (pin "2" (uuid 89829669-5ad0-49b7-ba02-838385c1ab73))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R1") (unit 1)
         )
@@ -1638,7 +1638,7 @@
     (pin "1" (uuid a14a9bee-c6dc-4ece-9758-daebe875207b))
     (pin "2" (uuid b6ca1650-59ce-4dad-962d-1a68ee165dc7))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R2") (unit 1)
         )
@@ -1664,7 +1664,7 @@
     (pin "1" (uuid 7f53e4a3-4c78-4340-9d59-335573c15653))
     (pin "2" (uuid b2b485b8-a386-46bf-be90-ee890717ee9b))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C3") (unit 1)
         )
@@ -1689,7 +1689,7 @@
     )
     (pin "1" (uuid cfc03504-154b-4de0-bc31-4787da4ce177))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR09") (unit 1)
         )
@@ -1714,7 +1714,7 @@
     )
     (pin "1" (uuid dbebc989-75be-4404-8f97-3b8560fbac27))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR010") (unit 1)
         )
@@ -1740,7 +1740,7 @@
     (pin "1" (uuid 2c7fd10c-fcd4-4df4-9684-3cc394365f18))
     (pin "2" (uuid a9b6cead-d64a-4268-99b8-4010e34ec85f))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J4") (unit 1)
         )
@@ -1766,7 +1766,7 @@
     (pin "1" (uuid bd28c875-f914-44df-9702-5d617bcda347))
     (pin "2" (uuid 7c7279fc-0502-49d4-9b19-817116b74304))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J5") (unit 1)
         )
@@ -1792,7 +1792,7 @@
     (pin "1" (uuid efa9e07c-2a64-4358-9113-27114a221679))
     (pin "2" (uuid e391d6d2-2b9e-4b57-a416-52c51f4da49c))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J6") (unit 1)
         )
@@ -1818,7 +1818,7 @@
     (pin "1" (uuid 173b5362-bd47-44fb-95ae-b35c943dd9b3))
     (pin "2" (uuid d18bf922-70de-4c41-ba8b-5e236ffcbd14))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J7") (unit 1)
         )
@@ -1844,7 +1844,7 @@
     (pin "1" (uuid 627715a3-fe50-405e-897c-eb3c54751c5d))
     (pin "2" (uuid 92d53403-fd76-4971-a91d-265fae3057d8))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J10") (unit 1)
         )
@@ -1870,7 +1870,7 @@
     (pin "1" (uuid 39b211d9-8a92-4877-b682-8ed5bf97f723))
     (pin "2" (uuid c77a4a65-7a9f-4775-b25b-7a9aac628eef))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J11") (unit 1)
         )
@@ -1896,7 +1896,7 @@
     (pin "1" (uuid bda819d8-0f5f-401d-9fa6-a70ecc7cdb6d))
     (pin "2" (uuid ce6dc695-8eea-4380-b055-72e4e64aebba))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J3") (unit 1)
         )
@@ -1922,7 +1922,7 @@
     (pin "1" (uuid 2ab20ec1-52ea-43aa-833f-177957d4a0af))
     (pin "2" (uuid 02b23ff3-f2f5-4b9c-a9d2-ce91f9d6d193))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "D2") (unit 1)
         )
@@ -1948,7 +1948,7 @@
     (pin "1" (uuid facd0364-9057-4b0d-b33c-221e89d869eb))
     (pin "2" (uuid 75e4b02a-700f-47a0-b301-5f4df539393c))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R11") (unit 1)
         )
@@ -1974,7 +1974,7 @@
     (pin "1" (uuid 3a58e6de-c687-44a9-a02c-a80ea04fc2f3))
     (pin "2" (uuid 5960959d-e196-4dad-a59f-b4239debb956))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R12") (unit 1)
         )
@@ -2000,7 +2000,7 @@
     (pin "2" (uuid c4799386-4fef-4dcc-aa99-c7e924d6d536))
     (pin "1" (uuid 2ff3cc35-ace3-46d2-a93c-3c158010d331))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R13") (unit 1)
         )
@@ -2026,7 +2026,7 @@
     (pin "1" (uuid 85b1becd-aa1d-49cc-9bdb-d3aaa9d21e16))
     (pin "2" (uuid 05b9cc51-a492-4f6e-9822-13d9ed1f49d7))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R14") (unit 1)
         )
@@ -2052,7 +2052,7 @@
     (pin "1" (uuid 386dd0ac-9691-41ca-8703-43e737bd60b9))
     (pin "2" (uuid d8a6b9ba-99de-4246-8a76-734731346358))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "D3") (unit 1)
         )
@@ -2078,7 +2078,7 @@
     (pin "1" (uuid 84435964-d7c3-49ba-9b56-a08ca77d72c3))
     (pin "2" (uuid 14b4efd3-a075-4958-aa24-09fd053ae53a))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "D4") (unit 1)
         )
@@ -2104,7 +2104,7 @@
     (pin "1" (uuid fa41eec2-6424-414e-b8cf-c9adf83e65d6))
     (pin "2" (uuid 3462827e-2efb-4499-bdb7-0eed9db86ca5))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "D5") (unit 1)
         )
@@ -2129,7 +2129,7 @@
     )
     (pin "1" (uuid 10ebfbe5-4e3b-47aa-ab5e-b3a49632ba8d))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR011") (unit 1)
         )
@@ -2154,7 +2154,7 @@
     )
     (pin "1" (uuid 68d43029-0e1b-4151-83ce-5b35d1e55198))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR012") (unit 1)
         )
@@ -2179,7 +2179,7 @@
     )
     (pin "1" (uuid 1932f7c5-a4fd-446a-9ed4-d1eba5c9d4dc))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR013") (unit 1)
         )
@@ -2204,7 +2204,7 @@
     )
     (pin "1" (uuid 980c6044-fb56-40a2-aff0-4a3a7b42dba1))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR014") (unit 1)
         )
@@ -2229,7 +2229,7 @@
     )
     (pin "1" (uuid aa3184a5-fd89-49b7-aaf2-eba1ba0a357d))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR015") (unit 1)
         )
@@ -2268,7 +2268,7 @@
     (pin "8" (uuid 1cad9573-5073-4a55-85a1-d59e2ccd2c7e))
     (pin "9" (uuid b6c7b211-43b4-4aa7-a5f1-d730973f6d84))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "U1") (unit 1)
         )
@@ -2294,7 +2294,7 @@
     (pin "1" (uuid 239e9a72-370e-44b2-a89e-973a56ec7c6e))
     (pin "2" (uuid 21676294-8a45-43e1-8323-60ba5a0469e2))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R7") (unit 1)
         )
@@ -2320,7 +2320,7 @@
     (pin "1" (uuid f61efb71-5f6a-4288-bcbd-2240b186585a))
     (pin "2" (uuid 004cd17e-a996-4286-bdb1-581b78d67d9b))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J8") (unit 1)
         )
@@ -2346,7 +2346,7 @@
     (pin "1" (uuid a6635f97-0348-4b90-81b0-132e0055887e))
     (pin "2" (uuid 578e7baf-ee27-4a6f-89d3-dce3637238aa))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "R8") (unit 1)
         )
@@ -2372,7 +2372,7 @@
     (pin "1" (uuid c60c1abc-9b79-46bf-a495-b5c5f4ed2594))
     (pin "2" (uuid 4878ccf5-3373-4bc0-a220-6cabc65b47a3))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J9") (unit 1)
         )
@@ -2398,7 +2398,7 @@
     (pin "1" (uuid db031659-a29f-49c0-b5d9-b01e38098d0e))
     (pin "2" (uuid 367d4290-f3c6-4ce5-8c70-04e86b3bb308))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C2") (unit 1)
         )
@@ -2423,7 +2423,7 @@
     )
     (pin "1" (uuid 7d38cb0c-9974-4b8f-9c28-adae43de0799))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR016") (unit 1)
         )
@@ -2448,7 +2448,7 @@
     )
     (pin "1" (uuid 048fffb6-d63f-49f6-b062-5dd763c29c53))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR017") (unit 1)
         )
@@ -2473,7 +2473,7 @@
     )
     (pin "1" (uuid cd6be7f2-0663-4d0d-b553-7d0a14a686c4))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J12") (unit 1)
         )
@@ -2498,7 +2498,7 @@
     )
     (pin "1" (uuid fd9ecc0e-d3ed-4eda-8a7f-acf62ba9a5e1))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J14") (unit 1)
         )
@@ -2524,7 +2524,7 @@
     (pin "1" (uuid bd657617-3600-4666-9839-bac5feec46a9))
     (pin "2" (uuid c3e10c08-0b96-4d71-9c62-082c0ed5c9b0))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C4") (unit 1)
         )
@@ -2550,7 +2550,7 @@
     (pin "1" (uuid e627f406-6690-4f0e-817b-7989d9517f83))
     (pin "2" (uuid 76201d8d-afbd-4bde-9992-aecc6d54dd6b))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C5") (unit 1)
         )
@@ -2576,7 +2576,7 @@
     (pin "1" (uuid 4deb9234-c68c-413e-b5c5-3b97d6c86ea6))
     (pin "2" (uuid 58628650-3fcb-4a13-a92a-2cab7421d09d))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C6") (unit 1)
         )
@@ -2602,7 +2602,7 @@
     (pin "1" (uuid 7b20d0b1-ee26-44eb-b968-6af38660b567))
     (pin "2" (uuid 6b055b36-dda4-40d1-b087-feaad40956dc))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "C7") (unit 1)
         )
@@ -2627,7 +2627,7 @@
     )
     (pin "1" (uuid 67a94dca-2bfc-4f45-bce9-ebc76dc75b77))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR018") (unit 1)
         )
@@ -2652,7 +2652,7 @@
     )
     (pin "1" (uuid 72b59e56-1428-430a-bc75-e89cd3eb0060))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR019") (unit 1)
         )
@@ -2677,7 +2677,7 @@
     )
     (pin "1" (uuid 4008743b-aa61-4b22-b9b2-21b8223cb8ab))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR020") (unit 1)
         )
@@ -2702,7 +2702,7 @@
     )
     (pin "1" (uuid e70eca71-09cc-4e3f-a106-9ff3f5b2b398))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR021") (unit 1)
         )
@@ -2727,7 +2727,7 @@
     )
     (pin "1" (uuid dfff803f-e8ec-4eb9-8a6e-6e12c9d3d4e8))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J13") (unit 1)
         )
@@ -2752,7 +2752,7 @@
     )
     (pin "1" (uuid 3fe73bd5-7811-4d0e-ab18-674939692609))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J15") (unit 1)
         )
@@ -2777,7 +2777,7 @@
     )
     (pin "1" (uuid d2c75903-ad74-4ab6-870b-66919d2df04c))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J16") (unit 1)
         )
@@ -2802,7 +2802,7 @@
     )
     (pin "1" (uuid 6ff0cacd-bcf8-4286-99f9-fc76d9f3aa55))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J17") (unit 1)
         )
@@ -2827,7 +2827,7 @@
     )
     (pin "1" (uuid 80a176bc-a9fb-486e-91f9-3dc3fb0fe803))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J18") (unit 1)
         )
@@ -2852,7 +2852,7 @@
     )
     (pin "1" (uuid 5604ffd9-ebe5-4620-a20d-f8ea889bb938))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J19") (unit 1)
         )
@@ -2877,7 +2877,7 @@
     )
     (pin "1" (uuid 96d96847-c870-464f-80f2-e20d53a6738d))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR022") (unit 1)
         )
@@ -2903,7 +2903,7 @@
     (pin "1" (uuid 29b2d99f-c963-4b65-b323-b462861d2f2e))
     (pin "2" (uuid 794b5002-a185-4718-94e4-27535f466c22))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "J20") (unit 1)
         )
@@ -2928,7 +2928,7 @@
     )
     (pin "1" (uuid 4102da58-cfea-4067-8b25-6e04b757169b))
     (instances
-      (project "DIG4SWHI01A"
+      (project "DIG4SWHI01"
         (path "/38a79c6c-f7de-4b58-b8c9-6617c5639f21"
           (reference "#PWR023") (unit 1)
         )
