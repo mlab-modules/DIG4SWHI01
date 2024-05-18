@@ -1,8 +1,8 @@
-description: Switch for voltage from 4 V to 28 V. Resistance in spliced state 50 mOhm.
-  Integrated circuit VNQ7050AJ.
+description: Switch for voltage from 4 V to 28 V, resistance 50 mOhm. Integrated circuit
+  VNQ7050AJ.
 github_branch: DIG4SWHI01A
-github_description: Switch for voltage from 4 V to 28 V. Resistance in spliced state
-  50 mOhm. Integrated circuit VNQ7050AJ.
+github_description: Switch for voltage from 4 V to 28 V, resistance 50 mOhm. Integrated
+  circuit VNQ7050AJ.
 github_repo: DIG4SWHI01
 github_url: https://github.com/mlab-modules/DIG4SWHI01
 homepage: false
@@ -12,4 +12,4 @@ mark: 50
 status: 0
 tags: []
 title: DIG4SWHI01
-updated: '2024-05-18T20:38:00.762731+00:00'
+updated: '2024-05-18T20:51:21.309628+00:00'
