@@ -6,6 +6,7 @@ github_description: Switch for voltage from 4 V to 28 V, resistance 50 mOhm. Int
 github_repo: DIG4SWHI01
 github_url: https://github.com/mlab-modules/DIG4SWHI01
 homepage: false
+image_title: doc/gen/img/DIG4SWHI01-top.png
 images:
 - doc/img/DIG4SWHI01A_QRcode.png
 - doc/gen/img/DIG4SWHI01-bottom.png
@@ -18,7 +19,7 @@ images:
 mark: 50
 mod_ibom: hw/cam_profi/DIG4SWHI01-ibom.html
 mod_scheme: doc/gen/DIG4SWHI01-schematic.pdf
-status: 0
+status: 2
 tags: []
 title: DIG4SWHI01
 updated: '2024-05-31T01:01:45.961666+00:00'
