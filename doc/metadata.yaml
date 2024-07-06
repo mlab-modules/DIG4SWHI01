@@ -20,6 +20,9 @@ mark: 50
 mod_ibom: hw/cam_profi/DIG4SWHI01-ibom.html
 mod_scheme: doc/gen/DIG4SWHI01-schematic.pdf
 status: 2
-tags: []
+tags:
+- high-current
+- mlab-module
+- switch
 title: DIG4SWHI01
-updated: '2024-07-06T19:17:04.263304+00:00'
+updated: '2024-07-06T19:18:03.802018+00:00'
